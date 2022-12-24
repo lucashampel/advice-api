@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             DispatchQueue.main.async {
                 self.screen?.loadingComponent.stopAnimating()
                 self.screen?.labelTextView.text = data.obj.advice
-                print(data.obj.advice)
+                print(data.obj.advice!)
             }
         })
     }

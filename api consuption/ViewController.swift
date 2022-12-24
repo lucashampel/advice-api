@@ -30,11 +30,10 @@ class ViewController: UIViewController {
     func genereteAdvice(){
         self.screen?.loadingComponent.startAnimating()
         self.screen?.labelTextView.text = ""
-        api.getUserDataFinal(completion: { (data) -> Void in
+        api.getUserData(completion: { (data) -> Void in
             DispatchQueue.main.async {
                 self.screen?.loadingComponent.stopAnimating()
                 self.screen?.labelTextView.text = data.obj.advice
-                print(data.obj.advice!)
             }
         })
     }

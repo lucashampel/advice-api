@@ -15,7 +15,6 @@
 		6736E2BD294C283100D0307E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6736E2BC294C283100D0307E /* Assets.xcassets */; };
 		6736E2C0294C283100D0307E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6736E2BE294C283100D0307E /* LaunchScreen.storyboard */; };
 		6736E2C9294C28E800D0307E /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E2C8294C28E800D0307E /* ApiService.swift */; };
-		6736E2CC294C367900D0307E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6736E2CB294C367900D0307E /* UserModel.swift */; };
 		67896AE129548AEF00D4E541 /* AdviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67896AE029548AEF00D4E541 /* AdviceModel.swift */; };
 		67896AE429550AE200D4E541 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67896AE329550AE200D4E541 /* MainView.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +30,6 @@
 		6736E2BF294C283100D0307E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6736E2C1294C283100D0307E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6736E2C8294C28E800D0307E /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
-		6736E2CB294C367900D0307E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		67896AE029548AEF00D4E541 /* AdviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceModel.swift; sourceTree = "<group>"; };
 		67896AE329550AE200D4E541 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +89,6 @@
 		6736E2CA294C366600D0307E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6736E2CB294C367900D0307E /* UserModel.swift */,
 				67896AE029548AEF00D4E541 /* AdviceModel.swift */,
 			);
 			path = Model;
@@ -191,7 +188,6 @@
 				67896AE129548AEF00D4E541 /* AdviceModel.swift in Sources */,
 				6736E2B1294C283000D0307E /* AppDelegate.swift in Sources */,
 				6736E2BB294C283000D0307E /* api_consuption.xcdatamodeld in Sources */,
-				6736E2CC294C367900D0307E /* UserModel.swift in Sources */,
 				6736E2B3294C283000D0307E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

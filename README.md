@@ -1,7 +1,7 @@
 # advice-api
-Learning to make an API call
-Transform de recieved object to a class with JSONDecoder
-Testing the @escaping closure to do something after request finish and present the return of API
+Learning to make an API call  <br />
+Transform de recieved object to a class with JSONDecoder <br />
+Testing the @escaping closure to do something after request finish and present the return of API <br />
 
 
 
